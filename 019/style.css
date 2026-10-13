@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+em HTML e id = em CSS é # -> unico elemento
+em HTML e class = em CSS é . -> posso ter varios elementos com a mesma classe
+
+nomear as classes pela funcionalidade e nao forma
+
+regra de hierarquia class vem antes do id por ex h1 vai ser o azul/roxo mas tambem vai ter caracteristicas do h1#principal
+*/
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(85, 71, 236);
+}
+h1#principal {
+    text-align: center;
+    background-color: antiquewhite;
+}
+h2 {
+    color: rgb(118, 107, 242);
+}
+.basico {
+ color: rgb(109, 198, 85);
+}
+.intermediario {
+    color: rgb(240, 199, 65);
+}
+.avancado{
+    color: brown;
+}
+.destaque{
+    background-color: brown;
+}
